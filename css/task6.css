@@ -1,0 +1,24 @@
+* {
+	margin:0;
+	padding:0px;
+	box-sizing:box-border;
+}
+.container {
+	margin:40px;
+	width:100%;
+}
+.row {
+	display:flex;
+	
+}
+.image {
+	filter:grayscale(100%);
+}
+.image:hover {
+	filter:grayscale(1%);
+	transform:scale(1.1,1.1);
+	transition:1.5s ease ;
+}
+img {
+	max-width:60%;
+}
